@@ -1,16 +1,18 @@
 /* 
 1.	Deklarasikan variabel berikut dengan tipe data yang sesuai:
-1.	Variabel username yang berisi string "Alice".
-2.	Variabel age yang berisi angka 25.
-3.	Variabel isAdmin yang berisi nilai boolean true.
-4.	Variabel colors yang berisi array string ["red", "green", "blue"].
+
+a.	Variabel username yang berisi string "Alice".
+b.	Variabel age yang berisi angka 25.
+c.	Variabel isAdmin yang berisi nilai boolean true.
+d.	Variabel colors yang berisi array string ["red", "green", "blue"].
 
 2.	Buat fungsi bernama multiply yang menerima dua parameter bertipe number dan mengembalikan hasil perkalian keduanya.
 
 3.	Buat interface Car dengan properti:
-1.	brand (string)
-2.	model (string)
-3.	year (number)
+
+a.	brand (string)
+b.	model (string)
+c.	year (number)
 Lalu, buat variabel bernama myCar yang sesuai dengan interface tersebut.
 
 4.	Buat variabel bernama userId yang dapat bertipe string atau number. Berikan nilai awal "123".
@@ -22,29 +24,35 @@ Lalu, buat variabel bernama myCar yang sesuai dengan interface tersebut.
 7.	Buat fungsi generic bernama identity yang menerima satu parameter dan mengembalikan parameter tersebut.
 
 8.	Buat type alias Point untuk mendefinisikan objek dengan properti:
+
 •	x (number)
 •	y (number)
+
 Lalu buat variabel pointA dengan nilai { x: 10, y: 20 }.
 
 9.	Buat class BankAccount dengan:
-1.	Properti private balance (number).
-2.	Method deposit untuk menambah saldo.
-3.	Method getBalance untuk mendapatkan saldo.
+
+a.	Properti private balance (number).
+b.	Method deposit untuk menambah saldo.
+c.	Method getBalance untuk mendapatkan saldo.
 
 10.	Buat interface User dengan properti:
-1.	id (readonly, number)
-2.	name (string)
+
+a.	id (readonly, number)
+b.	name (string)
 Lalu buat variabel user dengan properti id: 1 dan name: "Alice".
 
 11.	Buat interface Profile dengan properti:
-1.	name (string)
-2.	age (number)
+
+a.	name (string)
+b.	age (number)
 Gunakan Partial untuk membuat variabel profileUpdate di mana semua properti opsional.
 
 12.	Buat enum Role dengan nilai:
-1.	Admin
-2.	User
-3.	Guest
+
+a.	Admin
+b.	User
+c.	Guest
 Lalu buat variabel currentRole dengan nilai Role.User.
 
 13.	Buat dua type alias Employee dan Manager, lalu gabungkan keduanya menggunakan intersection type.
@@ -52,10 +60,10 @@ Lalu buat variabel currentRole dengan nilai Role.User.
 14.	Buat sebuah objek person dengan properti opsional address. Gunakan optional chaining untuk mengakses city di dalam address.
 
 15.	Buat fungsi calculateDiscount yang menerima dua parameter:
-1.	price (number)
-2.	discount (number, default: 10)
-Fungsi mengembalikan harga setelah diskon.
 
+a.	price (number)
+b.	discount (number, default: 10)
+Fungsi mengembalikan harga setelah diskon.
 
 */
 
